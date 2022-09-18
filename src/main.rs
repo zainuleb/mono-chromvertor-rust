@@ -4,10 +4,12 @@ fn add(num_one:i32, num_two:i32)-> i32{
 }
 
 fn main() {
-    let total = add(52,2);
+    let mut total = add(49,1);
+    let mut free_shipping = false;
 
-    if total > 50{
+    if total >= 50{
         println!("You qualify for free shipping!");
+        free_shipping = true;
     }
     else if total > 20 {
         println!("If you add more items, you can qualify for free shipping");
@@ -16,5 +18,10 @@ fn main() {
         println!("No free shipping");
     }
 
-    println!("{:?}",total);
+    match free_shipping {
+        true => total = total + 0,
+        false => total = total + 5
+    }
+
+    println!("Total {:?}",total);
 }

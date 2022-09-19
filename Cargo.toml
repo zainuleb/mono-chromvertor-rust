@@ -1,5 +1,5 @@
 [package]
-name = "rust-proj"
+name = "monocromatic-rust"
 version = "0.1.0"
 edition = "2021"
 

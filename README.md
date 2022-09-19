@@ -23,8 +23,8 @@ Cargo toml file
 
 ### Before Upload
 
-[![Before Screenshot][product-screenshot]](https://github.com/zainuleb/mono-chromvertor-rust/tree/main/public/SS1.PNG)
+![Before Screenshot](https://github.com/zainuleb/mono-chromvertor-rust/tree/main/public/SS1.PNG)
 
 ### After Upload
 
-[![Before Screenshot][product-screenshot]](https://github.com/zainuleb/mono-chromvertor-rust/tree/main/public/SS2.PNG)
+![After Screenshot](https://github.com/zainuleb/mono-chromvertor-rust/tree/main/public/SS2.PNG)
